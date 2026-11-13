@@ -1,0 +1,144 @@
+body{
+  background-color: hwb(0 100% 0%);
+  margin:0px;
+  border-radius: 8px;
+}
+header{
+  background-color: hwb(240 9% 4%);
+  color:hwb(60 4% 11%);
+  text-align: center;
+  padding:25px;
+}
+#ppp{
+  color:white;
+}
+nav{
+  background-color:hwb(240 3% 42%);
+  color:white;
+  padding:10px;
+  text-align: center;
+}
+
+nav a{
+  color:white;
+  text-decoration: none;
+  margin:0 12px;
+  font-weight: bold;
+}
+
+nav a:hover{
+  color:yellow;
+}
+
+main{
+  max-width: 1100px;
+  maegin:auto;
+  padding:25px;
+}
+
+section{
+  margin-bottom: 30px;
+}
+
+h2{
+  color:#123c69;
+  border-bottom: 2px solid#123c69;
+  padding-bottom: 8px;
+}
+
+p{
+  text-align: justify;
+}
+
+img{
+  max-width: 100%;
+  border-radius:10px;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  background-image: white;
+}
+
+td{
+  border:1px solid #ddd;
+  padding:12px;
+  text-align: left;
+}
+
+th{
+  background-color: #123c69;
+  color:white;
+}
+
+input,select,textarea{
+  padding:10px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+input[type="submit"] {
+  background: #123c69;
+  color:white;
+  border:none;
+  cursor:pointer;
+}
+
+input[type="submit"]:hover{
+  background: #2563eb;
+}
+
+footer{
+  background-color: hwb(240 2% 36%);
+  color:white;
+  text-align: center;
+  padding:15px;
+}
+
+#beranda{
+  background-color: #dbeafe; 
+  padding:35px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#tentang{
+  background-color:#dbeafe;
+  padding:25px;
+  border-radius:12px;
+}
+
+#kontak{
+  background-color:#dbeafe;
+  padding:25px;
+  border-radius: 12px;
+}
+#materi{
+  background-color: aliceblue;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 5px;
+}
+.container{
+  display:grid;
+  grid-template-columns: repeat (3,1fr);
+  gap: 20px;
+}
+
+.kartu {
+  background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.tombol{
+  display:inline-block;
+  background-color:#123c69; 
+  color:white;
+  padding:10px;
+  text-decoration: none;
+  border-radius:0;
+}
